@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #6095af;
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #bedcec;
+    color: #1385cc;
+    font-size: 0.9em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #222;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.green-btn, .white-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+}
+
+.green-btn {
+    background-color: #1f76c2;
+    color: #ffffff;
+}
+
+.white-btn {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+main {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.info-block {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.info-block .email::before { content: "📧"; }
+.info-block .phone::before { content: "📞"; }
+.info-block .office::before { content: "📍"; }
+.info-block .socials::before { content: "💼"; }
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+    background-color: #44a8ca;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.info-block h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.info-block p {
+    color: #666;
+}
+
+.social-links a {
+    color: #1FC27A;
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #1f8bb5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    margin-top: 10px;
+}
